@@ -8,6 +8,15 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 10px;
+        transition: opacity 15s;
+    }
+
+    .subscribe-button:hover{
+        opacity: 0.1;
+    }
+
+    .subscribe-button:active{
+        opacity: 0.5;
     }
 
     .join-button{
@@ -20,7 +29,25 @@
         width: 60px;
         border-radius: 2px;
         cursor: pointer;
+
+        transition: background-color 0.15s,
+            color 0.15s;
+
     }
+
+    .join-button:hover{
+        background-color: blue;
+        color: white;
+
+
+        transition: background-color 1s,
+            color 1s;
+    }
+
+    .join-button:active{
+        opacity: 0.7;
+    }
+
 
     .tweet-button{
         background-color: blue;
@@ -33,6 +60,11 @@
         font-size: 15px;
         cursor: pointer;
         margin-left: 20px;
+        transition: box-shadow 0.15s;
+    }
+
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px black;
     }
 
     .uber{
@@ -41,6 +73,11 @@
         margin-bottom: 10px;
         width: 100px;
         height: 30px;
+        cursor: pointer;
+    }
+
+    .uber:hover{
+        opacity: 0.7;
     }
 
     .amazon{
@@ -52,6 +89,11 @@
         margin-bottom: 10px;
         width: 150px;
         height: 30px;
+        cursor: pointer;
+    }
+
+    .amazon:hover{
+        opacity: 1.2;
     }
 
     .github{
@@ -63,6 +105,11 @@
         font-weight: bold;
         width: 100px;
         height: 30px;
+        cursor: pointer;
+    }
+
+    .github:hover{
+        box-shadow: 0 5px 5px #c4c1c1;
     }
 
     .bootstrap1{
@@ -77,6 +124,10 @@
         margin-right: 10px;
     }
 
+    .bootstrap1:hover{
+        opacity: 0.9;
+    }
+
     .bootstrap2{
         background-color: rgb(108,117,125);
         font-weight: lighter;
@@ -84,6 +135,14 @@
         height: 30px;
         border-radius: 2px;
         border-width: 1px;
+    }
+
+    .bootstrap2:hover{
+        background-color: #878484;
+        color: white;
+
+        transition: background-color 1s,
+            color 1s;
     }
 
     .linkedln1{
@@ -97,6 +156,10 @@
         margin-right: 10px;
     }
 
+    .linkedln1:hover{
+        opacity: 0.9;
+    }
+
     .linkedln2{
         color: blue;
         border-radius: 20px;
@@ -105,6 +168,10 @@
         height: 30px;
         border-width: 1px;
         border-color: blue;
+    }
+
+    .linkedln2:hover{
+        opacity: 0.8;
     }
 
     .amazon1{
@@ -131,6 +198,14 @@
         margin-right: 10px;
     }
 
+    .add:hover{
+        opacity: 0.8;
+    }
+
+    .add:active{
+        opacity: 0.5;
+    }
+
     .buy{
         background-color: rgb(255,164,28);
         border-radius: 18px;
@@ -139,6 +214,15 @@
         width: 100px;
         height: 30px;
     }
+
+    .buy:hover{
+        opacity: 0.8;
+    }
+
+    .buy:active{
+        opacity: 0.5;
+    }
+
 </style>
 
 <button class="subscribe-button">
