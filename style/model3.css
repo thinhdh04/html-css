@@ -1,0 +1,17 @@
+p{
+    font-family: "Monserrat";
+}
+
+.six-d{
+    text-align: center;
+}
+
+.model{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.span-deli{
+    text-decoration: underline;
+}
