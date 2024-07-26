@@ -1,0 +1,111 @@
+.chung{
+    text-align: center;
+    font-family: Verdana;
+}
+
+.p-lorem{
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+.btn-he{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20pt;
+}
+
+.btn-cl{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20pt;
+}
+
+.btn-cl1{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20pt;
+}
+
+.btn-cl2{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20pt;
+}
+
+.p-he{
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.p-go{
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.p-nike{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.p-dola{
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.p-free{
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.btn-cart{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20pt;
+}
+
+.btn-buy{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20pt;
+}
