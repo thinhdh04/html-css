@@ -1,0 +1,69 @@
+.thumbnail{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    /*object-position: center;*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+}
+
+.search-bar{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.cat1{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.cat2{
+    width: 350px;
+    height: 300px;
+}
+
+.cat3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.search-bar1{
+    border-radius: 10px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-bar2{
+    border-radius: 20px;
+    border: none;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.search-bar3{
+    border-radius: 4px;
+    border-width: 2px;
+    width: 40%;
+}
+
+.btn-join{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
