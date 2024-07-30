@@ -6,11 +6,13 @@
     border-width: 5px;
     border-style: solid;
     border-color: red;
+    display: block;
 }
 
 .search-bar{
     font-size: 15px;
     margin-left: 5px;
+
 }
 
 .cat1{
@@ -67,3 +69,140 @@
     padding-right: 50px;
 }
 
+.vi-ti{
+    width: 300px;
+}
+
+.vi-au{
+    display: inline-block;
+}
+
+.vi-au{
+    display: inline-block;
+}
+
+.in-name{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.p-lorem{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.img-gg{
+    margin-bottom: 5px;
+    margin-left: 600px;
+    width: 250px;
+    height: 200px;
+    display: block;
+}
+
+.in-gg{
+    width: 600px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+}
+
+.in-name{
+    margin-bottom: 10px;
+}
+
+.in-name1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.in-name2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.in-mail{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 190px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+    border-width: 1px;
+}
+
+.btn-sign{
+    background-color: #2e92ba;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 160px;
+    padding-right: 160px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.p-now{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.in-loca{
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 80px;
+    border: none;
+    background-color: lightgray;
+}
+
+.in-des{
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 80px;
+    border: none;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.btn-now{
+    background-color: black;
+    border: none;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.btn-later{
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
