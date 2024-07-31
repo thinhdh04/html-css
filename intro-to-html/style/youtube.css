@@ -96,7 +96,7 @@
     margin-bottom: 5px;
     margin-left: 600px;
     width: 250px;
-    height: 200px;
+    height: 170px;
     display: block;
 }
 
@@ -205,4 +205,165 @@
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.div-example{
+    display: inline-block;
+}
+
+.red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.green{
+    background-color: green;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.ex-9c{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 200px;
+    padding-right: 200px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.p-our{
+    font-weight: bold;
+}
+
+.ex-9d{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.p-add{
+    color: #c4c1c1;
+}
+
+.img-cat{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    vertical-align: middle;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.in-what{
+    border: none;
+    width: 300px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.btn-tweet{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.profile{
+    box-shadow: 5px 5px 10px gray;
+    width: 200px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.img-cat1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.p-oli{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.p-mufr{
+    color: #878484;
+    margin-left: 10px;
+}
+
+.btn-addfr{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.ex-9h{
+    text-align: center;
+}
+
+.img-gg1{
+    width: 300px;
+    height: 200px;
+}
+
+.in-gg1{
+    width: 600px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+}
+
+.in-gg-search{
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.in-lucky{
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 15px;
 }
