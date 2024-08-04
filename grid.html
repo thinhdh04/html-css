@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Practice</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body style="margin-bottom: 1000px">
+    <div style="display: grid;  grid-template-columns: 100px 100px">
+        <div style="background-color: lightblue">
+            div 1
+        </div>
+        <div style="background-color: lightpink">
+            div 2
+            <p>text</p>
+        </div>
+    </div>
+
+    <div style="margin-top: 20px; display: grid;  grid-template-columns: 100px 100px 200px">
+        <div style="background-color: lightblue">
+            div 1
+        </div>
+        <div style="background-color: lightpink">
+            div 2
+            <p>text</p>
+        </div>
+        <div style="background-color: lightblue">
+            div 3
+        </div>
+        <div style="background-color: lightpink">
+            div 2
+        </div>
+    </div>
+
+    <div style="margin-top: 20px; display: grid;  grid-template-columns: 100px 1fr ">
+        <div style="background-color: lightblue">
+            div 1
+        </div>
+        <div style="background-color: lightpink">
+            div 2
+        </div>
+    </div>
+
+    <div style="margin-top: 20px; display: grid;  grid-template-columns: 100px 1fr 3fr">
+        <div style="background-color: lightblue">
+            div 1
+        </div>
+        <div style="background-color: lightpink">
+            div 2
+        </div>
+        <div style="background-color: lightblue">
+            div 1
+        </div>
+    </div>
+
+    <div style="margin-top: 20px; display: grid;  grid-template-columns: 1fr 1fr 1fr; column-gap: 20px; row-gap: 40px">
+        <div style="background-color: lightblue; height: 200px">
+            div 1
+        </div>
+        <div style="background-color: lightpink; height: 200px">
+            div 2
+        </div>
+        <div style="background-color: lightblue; height: 200px">
+            div 1
+        </div>
+        <div style="background-color: lightpink; height: 200px">
+            div 2
+        </div>
+        <div style="background-color: lightblue; height: 200px">
+            div 1
+        </div>
+        <div style="background-color: lightpink; height: 200px">
+            div 2
+        </div>
+    </div>
+    <hr>
+    <div style="display: grid;  grid-template-columns: 200px 75px">
+        <div style="background-color: lightblue">
+            200px
+        </div>
+        <div style="background-color: lightpink">
+            75px
+        </div>
+    </div>
+
+    <div style="margin-top: 20px; display: grid;  grid-template-columns: 50px 1fr 75px">
+        <div style="background-color: lightblue">
+            col1
+        </div>
+        <div style="background-color: lightpink">
+            col2
+        </div>
+        <div style="background-color: lightblue">
+            col3
+        </div>
+    </div>
+
+    <div style="margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; column-gap: 20px; row-gap: 10px">
+        <div style="background-color: lightpink">
+            div 1
+        </div>
+        <div style="background-color: lightpink">
+            div 2
+        </div>
+        <div style="background-color: lightpink">
+            div 3
+        </div>
+        <div style="background-color: lightpink">
+            div 4
+        </div>
+        <div style="background-color: lightpink">
+            div 1
+        </div>
+        <div style="background-color: lightpink">
+            div 2
+        </div>
+        <div style="background-color: lightpink">
+            div 3
+        </div>
+        <div style="background-color: lightpink">
+            div 4
+        </div>
+    </div>
+    <hr>
+    <div class="ex-11d">
+        <div class="profile">
+            <img class="img-cat1" src="https://images.unsplash.com/photo-1422565096762-bdb997a56a84?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <p class="p-oli">Oliver</p>
+            <div class="layout-mufr">
+                <img class="profile-pic1" src="https://yt3.ggpht.com/ytc/AIdro_laf9dDyNATE1_RdVUKthwnwT9TSm9N0my0jL2H8gCvjw=s88-c-k-c0x00ffffff-no-rj">
+                <p class="p-mufr">2 mutual friends</p>
+            </div>
+            <button class="btn-addfr">Add friends</button>
+        </div>
+
+        <div class="profile">
+            <img class="img-cat1" src="https://images.unsplash.com/photo-1472491235688-bdc81a63246e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <p class="p-oli">Mimi</p>
+            <div class="layout-mufr">
+                <img class="profile-pic1" src="https://yt3.ggpht.com/ytc/AIdro_laf9dDyNATE1_RdVUKthwnwT9TSm9N0my0jL2H8gCvjw=s88-c-k-c0x00ffffff-no-rj">
+                <p class="p-mufr">3 mutual friends</p>
+            </div>
+            <button class="btn-addfr">Add friends</button>
+        </div>
+
+        <div class="profile">
+            <img class="img-cat1" src="https://images.unsplash.com/photo-1682061959575-4e9407189c81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <p class="p-oli">Rex</p>
+            <div class="layout-mufr">
+                <img class="profile-pic1" src="https://yt3.ggpht.com/ytc/AIdro_laf9dDyNATE1_RdVUKthwnwT9TSm9N0my0jL2H8gCvjw=s88-c-k-c0x00ffffff-no-rj">
+                <p class="p-mufr">4 mutual friends</p>
+            </div>
+            <button class="btn-addfr">Add friends</button>
+        </div>
+    </div>
+</body>
+</html>
