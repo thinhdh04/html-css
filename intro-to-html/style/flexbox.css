@@ -1,0 +1,291 @@
+div{
+    font-family: Arial;
+}
+
+.border-12e{
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 400px;
+}
+
+.flex-box-12e{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.noti-icon{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.border-12f{
+    background-color: mediumpurple;
+    border: none;
+    color: white;
+}
+
+.flex-box-12f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-input{
+    width: 400px;
+    border: none;
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.download-btn {
+    color: white;
+    background-color: mediumpurple;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flex-box-home{
+    font-weight: bold;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flex-box-12g{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-pic{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+.info{
+    width: 300px;
+    font-size: 20px;
+}
+
+.name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.handle{
+    margin-bottom: 5px;
+}
+
+.follow-btn{
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bt-13a{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.column-1{
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1{
+    background-color: black;
+    color: white;
+}
+
+.column-2{
+    background-color: lightblue;
+    width: 200px;
+}
+
+.bt-13b{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.column1-13b{
+    background-color: lightpink;
+    width: 100px;
+}
+
+.column2-13b{
+    background-color: lightblue;
+    width: 200px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row2-item{
+    background-color: black;
+    color: white;
+}
+
+.bt-13cde{
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+}
+
+.inbox-label{
+    color: darkgray;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-picture{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 40px;
+}
+
+.mail-content{
+    flex: 1;
+}
+
+.mail-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-name, .notification{
+    font-weight: bold;
+}
+
+.time, .message{
+    color: darkgray;
+}
+
+.tweet{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.picture-column{
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.tweet-column{
+    line-height: 25px;
+}
+
+.tweet-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.tweet-author{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.tweet-content{
+    margin-bottom: 20px;
+}
+
+.author-handle{
+    color: lightgray;
+}
+
+.video-preview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    overflow: hidden;
+}
+
+.thumbnail{
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+
+}
+
+.video-info{
+    flex: 1;
+}
+
+.youtube-link{
+    color: lightgray;
+}
