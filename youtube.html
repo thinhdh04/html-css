@@ -22,44 +22,95 @@
             <input class="search-bar" type="text" placeholder="Search">
             <button class="search-btn">
                 <img class="search-icon" src="icon/search.png" alt="">
+                <div class="tooltip">Search</div>
             </button>
             <button class="micro-btn">
                 <img class="micro-icon" src="icon/microphone.png" alt="">
+                <div class="tooltip">Search with your voice</div>
             </button>
         </div>
         <div class="right-section">
-            <img class="upload-icon" src="icon/upload.png" alt="">
-            <img class="app-icon" src="icon/apps.png" alt="">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icon/upload.png" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="app-icon-container">
+                <img class="app-icon" src="icon/apps.png" alt="">
+                <div class="tooltip">More Apps</div>
+            </div>
             <div class="notification-icon-container">
                 <img class="notification-icon" src="icon/notification.png" alt="">
                 <div class="notification-count">
                     3
                 </div>
+                <div class="tooltip">Notifications</div>
             </div>
             <img class="channel-icon" src="channel-pictures/pic1.jpg" alt="">
         </div>
     </div>
 
     <div class="sidebar">
-        sidebar
+        <div class="sidebar-link">
+            <img src="icon/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icon/explore.png" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icon/subcription.png" alt="">
+            <div>Subcriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icon/original.png" alt="">
+            <div>Original</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icon/music.png" alt="">
+            <div>Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icon/library.png" alt="">
+            <div>Library</div>
+        </div>
     </div>
 
     <div class="video-grid">
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="https://pbs.twimg.com/media/E18DmIVXMAMDsQi.jpg:large">
+                <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=15342s" target="_blank">
+                    <img class="thumbnail" src="https://pbs.twimg.com/media/E18DmIVXMAMDsQi.jpg:large">
+                </a>
                 <div class="video-time">
                     14:20
                 </div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
-                    <img class="profile-pic" src="channel-pictures/pic1.jpg" alt="">
+                    <div class="channel-pic-container">
+                        <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+                            <img class="profile-pic" src="channel-pictures/pic1.jpg" alt="">
+                        </a>
+                        <div class="channel-tooltip">
+                            <img class="picture" src="https://yt3.googleusercontent.com/ytc/AIdro_laf9dDyNATE1_RdVUKthwnwT9TSm9N0my0jL2H8gCvjw=s160-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="name">
+                                    SuperSimpleDev
+                                </div>
+                                <div class="stats">
+                                    500K subscribers
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="video-infor">
-                    <p class="video-title">
-                        HTML & CSS Full Course - Beginner to Pro
-                    </p>
+                    <a class="video-title-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=15342s" target="_blank">
+                        <p class="video-title">
+                            HTML & CSS Full Course - Beginner to Pro
+                        </p>
+                    </a>
                     <p class="video-author">
                         SuperSimpleDev
                     </p>
@@ -72,19 +123,38 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="https://plus.unsplash.com/premium_photo-1665203630695-1db105e4ea9d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <a target="_blank" href="https://www.youtube.com/watch?v=3xcGh4KHJQc">
+                    <img class="thumbnail" src="https://plus.unsplash.com/premium_photo-1665203630695-1db105e4ea9d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                </a>
                 <div class="video-time">
                     9:25
                 </div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
-                    <img class="profile-pic" src="../channel-pictures/pic2.jpg" alt="">
+                    <div class="channel-pic-container">
+                        <a target="_blank" href="https://www.youtube.com/@holetex">
+                            <img class="profile-pic" src="https://yt3.ggpht.com/MmyBjwWwb50dJo__SPHRO_kGXMjPRhiRgTykElPkjL9xoQSa38kt0_NMvlro4rkRDxnJqSWz=s88-c-k-c0x00ffffff-no-rj" alt="">
+                        </a>
+                        <div class="channel-tooltip">
+                            <img class="picture" src="https://yt3.ggpht.com/MmyBjwWwb50dJo__SPHRO_kGXMjPRhiRgTykElPkjL9xoQSa38kt0_NMvlro4rkRDxnJqSWz=s88-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="name">
+                                    ABCD
+                                </div>
+                                <div class="stats">
+                                    400K subscribers
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="video-infor">
-                    <p class="video-title">
-                        Welcome To My First Video
-                    </p>
+                    <a class="video-title-link" href="https://www.youtube.com/watch?v=3xcGh4KHJQc&pp=ygUNcG9tb2Rvcm8gMjUvNQ%3D%3D" target="_blank">
+                        <p class="video-title">
+                            Welcome To My First Video
+                        </p>
+                    </a>
                     <p class="video-author">
                         ABCD
                     </p>
@@ -97,19 +167,38 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="https://i.ytimg.com/vi/pIrkcBp-UO8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZ4SozjCz1bqBAk23jglIds00Inw">
+                <a target="_blank" href="https://www.youtube.com/watch?v=WIt8cNOMkwc&t=1511s">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/pIrkcBp-UO8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZ4SozjCz1bqBAk23jglIds00Inw">
+                </a>
                 <div class="video-time">
                     10:47
                 </div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
-                    <img class="profile-pic" src="https://yt3.ggpht.com/LJabXmxx_V4XauNgQlLNHjRnJf8QmP0evowkIRCSUORLvNdb5enIMQi5negHhZxaCGxs_TdYOA=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    <div class="channel-pic-container">
+                        <a target="_blank" href="https://www.youtube.com/@Vietcetera">
+                            <img class="profile-pic" src="https://yt3.ggpht.com/LJabXmxx_V4XauNgQlLNHjRnJf8QmP0evowkIRCSUORLvNdb5enIMQi5negHhZxaCGxs_TdYOA=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                        </a>
+                        <div class="channel-tooltip">
+                            <img class="picture" src="https://yt3.ggpht.com/LJabXmxx_V4XauNgQlLNHjRnJf8QmP0evowkIRCSUORLvNdb5enIMQi5negHhZxaCGxs_TdYOA=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                            <div>
+                                <div class="name">
+                                    Vietcetera
+                                </div>
+                                <div class="stats">
+                                    18M subscribers
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="video-infor">
-                    <p class="video-title">
-                       Điều gì kéo người trẻ về phía trước?
-                    </p>
+                    <a class="video-title-link" href="https://www.youtube.com/watch?v=WIt8cNOMkwc&t=1511s&pp=ygUNcG9tb2Rvcm8gMjUvNQ%3D%3D" target="_blank">
+                        <p class="video-title">
+                            Điều gì kéo người trẻ về phía trước?
+                        </p>
+                    </a>
                     <p class="video-author">
                        Vietcetera
                     </p>
@@ -122,19 +211,38 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="https://i.ytimg.com/vi/za-4yyN865Q/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFQQSzEEywlqsZipW5fWzqVMifUA">
+                <a target="_blank" href="https://www.youtube.com/watch?v=-PExnC26MMA&t=98s">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/za-4yyN865Q/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFQQSzEEywlqsZipW5fWzqVMifUA">
+                </a>
                 <div class="video-time">
                     17:01
                 </div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
-                    <img class="profile-pic" src="https://yt3.ggpht.com/lxiT-dmIT4LTYWeJpfQZdLbtqXgd8FRawB7YCzeDi1cy6Ubd7HcWh-tPVrC7jufJZ0yiMvb8xw=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    <div class="channel-pic-container">
+                        <a target="_blank" href="https://www.youtube.com/@HiddenChamps">
+                            <img class="profile-pic" src="https://yt3.ggpht.com/d74HVXWySvCpLG6XlYgo8R0a7GdCR8DarjCyL4liYMzrH0XYH4kkhMz3H_ztjy4hMBoJoLtLjQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </a>
+                        <div class="channel-tooltip">
+                            <img class="picture" src="https://yt3.ggpht.com/d74HVXWySvCpLG6XlYgo8R0a7GdCR8DarjCyL4liYMzrH0XYH4kkhMz3H_ztjy4hMBoJoLtLjQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            <div>
+                                <div class="name">
+                                    Hidden Champs
+                                </div>
+                                <div class="stats">
+                                    45K subscribers
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="video-infor">
-                    <p class="video-title">
-                        Muốn có tri thức, ta phải đi nhiều và trải nghiệm nhiều.
-                    </p>
+                    <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=-PExnC26MMA&t=98s&pp=ygUNcG9tb2Rvcm8gMjUvNQ%3D%3D">
+                        <p class="video-title">
+                            Muốn có tri thức, ta phải đi nhiều và trải nghiệm nhiều.
+                        </p>
+                    </a>
                     <p class="video-author">
                         Hidden Champs
                     </p>
@@ -147,19 +255,38 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="https://i.ytimg.com/vi/Zfy62dccpEY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZ4xoLdmN2CN2f_LCbjAjeureWRw">
+                <a target="_blank" href="https://www.youtube.com/watch?v=Zfy62dccpEY">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/Zfy62dccpEY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZ4xoLdmN2CN2f_LCbjAjeureWRw">
+                </a>
                 <div class="video-time">
                     47:15
                 </div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
-                    <img class="profile-pic" src="https://yt3.ggpht.com/M02psmfEpImmotdX_eQy-pO5UFU9Y6iMx_9DafaTwewoZPgKeUYEjCN_0ZfL5dqTHoHt8fjF=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    <div class="channel-pic-container">
+                        <a target="_blank" href="https://www.youtube.com/@CEOLABVN">
+                            <img class="profile-pic" src="https://yt3.ggpht.com/M02psmfEpImmotdX_eQy-pO5UFU9Y6iMx_9DafaTwewoZPgKeUYEjCN_0ZfL5dqTHoHt8fjF=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                        </a>
+                        <div class="channel-tooltip">
+                            <img class="picture" src="https://yt3.ggpht.com/M02psmfEpImmotdX_eQy-pO5UFU9Y6iMx_9DafaTwewoZPgKeUYEjCN_0ZfL5dqTHoHt8fjF=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                            <div>
+                                <div class="name">
+                                    CEO LAB
+                                </div>
+                                <div class="stats">
+                                    1.2M subscribers
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="video-infor">
-                    <p class="video-title">
-                        Làm chủ nghệ thuật kể chuyện.
-                    </p>
+                    <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=Zfy62dccpEY&pp=ygUcbGFtIGNodSBuZ2hlIHRodWF0IGtlIGNodXllbg%3D%3D">
+                        <p class="video-title">
+                            Làm chủ nghệ thuật kể chuyện.
+                        </p>
+                    </a>
                     <p class="video-author">
                         CEO LAB
                     </p>
@@ -172,19 +299,38 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="https://i.ytimg.com/vi/y3Yb_tPvt0Q/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDcLYPGrqwtZHJFYOwNTLsHokyyfw">
+                <a target="_blank" href="https://www.youtube.com/watch?v=y3Yb_tPvt0Q">
+                    <img class="thumbnail" src="https://i.ytimg.com/vi/y3Yb_tPvt0Q/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDcLYPGrqwtZHJFYOwNTLsHokyyfw">
+                </a>
                 <div class="video-time">
                     15:22
                 </div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-pic">
-                    <img class="profile-pic" src="../channel-pictures/pic2.jpg" alt="">
+                    <div class="channel-pic-container">
+                        <a target="_blank" href="https://www.youtube.com/@visaothenhipodcast">
+                            <img class="profile-pic" src="https://yt3.ggpht.com/lJv4nIxwx96pvmXpDtNVW5A5dtx5qiYwWe5yi3Tl26Az-cf5SCNx_tNXNgSPOE1xDWOraf1i=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                        </a>
+                        <div class="channel-tooltip">
+                            <img class="picture" src="https://yt3.ggpht.com/lJv4nIxwx96pvmXpDtNVW5A5dtx5qiYwWe5yi3Tl26Az-cf5SCNx_tNXNgSPOE1xDWOraf1i=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                            <div>
+                                <div class="name">
+                                    Vì sao thế nhỉ
+                                </div>
+                                <div class="stats">
+                                    19M subscribers
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="video-infor">
-                    <p class="video-title">
-                        Nếu biết trước lần cuối.
-                    </p>
+                    <a class="video-title-link" target="_blank" href="https://www.youtube.com/watch?v=y3Yb_tPvt0Q&pp=ygUqbuG6v3UgYmnhur90IHRyxrDhu5tjIGzhuqduIGN14buRaSBwb2RjYXN0">
+                        <p class="video-title">
+                            Nếu biết trước lần cuối.
+                        </p>
+                    </a>
                     <p class="video-author">
                         Vì sao thế nhỉ?
                     </p>
